@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body
+{
+    /* background-color: aqua; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-transparent
+{
+    background-color: transparent!important;
+    transition: all 0.5s;
+}
+.nav-colored
+{
+    background-color: rgba(138, 144, 255, 0.9) !important;
+    transition: all 0.5s;
+}
+.overlay-bg
+{
+    background-image: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    color: #ffffff;
+}
+
+.banner
+{
+    background-image: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    color: #ffffff;
+}
+
+.banner-text
+{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+/* myButton */
+.myButton{
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.myButton div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition:  all .3s ease-in-out;
+    background-color: #8a90ff;
+    border-radius: 5%;
+   
+}
+.myButton span.bg{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: #260327;
+    transform: skewX(-19deg);
+    
+}
+.myButton:hover span.bg{
+    width: 110%;
+}
+.myButton:hover{
+    color:#b014b6;
+}
+.myButton span.base{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+
+    box-sizing: border-box;
+    
+}
+.myButton span.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+  
+h1,h5{
+    font-weight: 300;
+}
+
+
+
+#banner h1
+{
+    font-size: 50px;
+}
+
+
+.button1
+{
+    background-color: white;
+    color:black;
+    transition: all 0.2s;
+}
+
+.button1:hover
+{
+    background-image: -moz-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    color:white;
+    transition: all 0.2s;
+}
+
+.footer-area 
+{
+    background-image: url("img/footer-bg.png");
+    background-size: cover;
+}
+.contact-page-area{
+    background-color: rgb(244, 248, 255);
+    width:80%;
+}
+.textarea1
+{
+    height: 190px;
+    width: 100%;
+}
+.contact-form h5
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.icon1
+{
+    color:rgb(138,144,255);
+    text-align: center;
+}
+
+.icon2
+{
+    background-color: rgb(83, 83, 83);
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+
+#facebook-icon:hover
+{
+    background-color:rgb(27, 116, 228);
+}
+#instagram-icon:hover
+{
+    background-color:rgb(248, 24, 114);
+}
+#linkedin-icon:hover
+{
+    background-color:rgb(38, 98, 169);
+}
+#github-icon:hover
+{
+    background-color:rgb(27, 31, 35);
+}
+
+
+
+.icon2 .fa
+{
+    color:rgb(206, 206, 206);
+}
+
+
+
+
+
+.fullscreen
+{
+
+    height: calc(100vh );
+
+}
+
+.about-video
+{
+    background: url(img/local.PNG) no-repeat center;
+    background-size: cover;
+    height: 330px;
+}
+
+
+.contact-page-area p
+{
+    font-weight: 300;
+    color: gray;
+}
+
+
+.style1 h5
+{
+    font-family: 'Arial';
+    font-weight: 600;
+    font-size: medium;
+}
+
+.style1 input::placeholder {
+    font-family: 'Arial';
+    font-weight: 100;
+    font-size: small;
+}
+
+.style1 textarea::placeholder {
+    font-family: 'Arial';
+    font-weight: 100;
+    font-size: small;
+}
+
+.button-text
+{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button2
+{
+    background-color: rgb(138,144,255);
+    color:white;
+    padding: 8px 25px;
+    transition: all 0.2s;
+}
+
+.button2:hover
+{
+    background-color: white;
+    color:rgb(138,144,255);
+    border-color: rgb(138,144,255);
+    transition: all 0.2s;
+}
+
+.two-color-background
+{
+    background: linear-gradient(0deg, white 45%, rgb(138,144,255) 45%);
+}
+
+.button3
+{
+    background-image: -moz-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    color:white;
+    padding: 8px 25px;
+    transition: all 0.2s;
+}
+
+.button3:hover
+{
+    background-image: none;
+    background-color: white;
+    color:rgb(138,144,255);
+    border-color: rgb(138,144,255);
+    transition: all 0.2s;
+}
+
+.feature-area
+{
+    background: url(img/feature-bg.png) center;
+     background-size: cover;
+}
+
+@media (max-width:1200px)
+{
+    .banner-text
+    {
+        font-size: 30px;
+    }
+}
+.competition {
+    padding-top: 0px;
+}
